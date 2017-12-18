@@ -5,3 +5,4 @@ Feature: https://cores-nd.mis.vanderbilt.edu/
     When I navigate to "https://cores-nd.mis.vanderbilt.edu/"
     Given I have authenticated as "esqa223"
     Then element having css "body" should be present
+    And element having css "body.neterror" should not be present

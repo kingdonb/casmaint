@@ -5,3 +5,4 @@ Feature: https://solutions.sciquest.com/apps/Router/SAMLAuth/NDProd
     When I navigate to "https://solutions.sciquest.com/apps/Router/SAMLAuth/NDProd"
     Given I have authenticated as "esqa223"
     Then element having css "body" should be present
+    And element having css "body.neterror" should not be present

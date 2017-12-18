@@ -9,3 +9,7 @@ end
 Then("element having css {string} should be present") do |css|
   find(css)
 end
+
+Then("element having css {string} should not be present") do |css|
+  expect(page).to_not have_selector(css)
+end
