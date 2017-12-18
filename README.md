@@ -19,11 +19,18 @@
     CREATE DATABASE casmaint_development;
     CREATE USER casmaint WITH PASSWORD 'very_s3krit_secret_casmaint_password';
     GRANT ALL PRIVILEGES ON DATABASE casmaint_development TO casmaint;
+    CREATE DATABASE casmaint_test;
+    GRANT ALL PRIVILEGES ON DATABASE casmaint_test TO casmaint;
+    ALTER DATABASE casmaint_test OWNER TO casmaint;
+    ALTER USER casmaint CREATEDB;
 ```
 
 * Database initialization
 
-    The database is not currently used for anything.
+```
+  $ rake db:create
+  $ RAILS_ENV=test rake db:create
+```
 
 * How to run the test suite
 
