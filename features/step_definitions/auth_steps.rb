@@ -1,5 +1,5 @@
 Given(/^I have authenticated as "([^"]*)"$/) do |user_id|
-  visit root_path
+  #visit root_path
   if page.has_field? 'username'
     # Check if testing on 'dev' against a real CAS (@javascript)
     if page.has_selector? 'form .btn-primary'

@@ -1,7 +1,7 @@
 Feature: https://linuxmon-prod.dc.nd.edu/nagios
   Background:
-    Given I have authenticated as "esqa223"
 
   Scenario:
     When I navigate to "https://linuxmon-prod.dc.nd.edu/nagios"
+    Given I have authenticated as "esqa223"
     Then element having css "body" should be present
