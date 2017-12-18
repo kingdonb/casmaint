@@ -51,6 +51,9 @@ group :development, :test do
   gem 'poltergeist'
   gem 'cucumber-rails', :require => false
   gem 'database_cleaner'
+  gem 'selenium-cucumber'
+  gem 'selenium-webdriver'
+  gem 'chromedriver-helper'
 end
 
 group :development do
