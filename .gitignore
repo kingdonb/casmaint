@@ -19,3 +19,4 @@
 .byebug_history
 /login_validation.csv
 /.env.local
+/features/reports/*

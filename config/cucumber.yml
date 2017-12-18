@@ -6,3 +6,4 @@ std_opts = "--format #{ENV['CUCUMBER_FORMAT'] || 'pretty'} --strict --tags ~@wip
 default: <%= std_opts %> features
 wip: --tags @wip:3 --wip features
 rerun: <%= rerun_opts %> --format rerun --out rerun.txt --strict --tags ~@wip
+regression: -t 'not @broken' -t 'not @pending' -t 'not @wip' features -f pretty -f json -o features/reports/results.json
