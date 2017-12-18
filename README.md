@@ -48,6 +48,7 @@
   S3_BUCKET_NAME=your_bucket_name
   AWS_ACCESS_KEY_ID=your_access_key_id
   AWS_SECRET_ACCESS_KEY=your_secret_access_key
+  esqa223_pass='f4ke_p$ssw!rd_for_esqa223_4ccount'
 ```
 
 * ...
