@@ -3,7 +3,7 @@
 [SETTING UP A RAILS PROJECT WITH POSTGRES, RSPEC AND CAPYBARA](http://julianveling.com/?p=18)
 
 * Ruby version
-    2.3.6
+    2.4.3
 
 * System dependencies
 
