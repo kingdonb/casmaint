@@ -598,6 +598,7 @@ GEM
     cliver (0.3.2)
     cocaine (0.5.8)
       climate_control (>= 0.0.3, < 1.0)
+    coderay (1.1.2)
     coffee-rails (4.2.2)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0)
@@ -683,6 +684,9 @@ GEM
       capybara (~> 2.1)
       cliver (~> 0.3.1)
       websocket-driver (>= 0.2.0)
+    pry (0.11.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.9.0)
     public_suffix (3.0.1)
     puma (3.11.0)
     rack (2.0.3)
@@ -814,6 +818,7 @@ DEPENDENCIES
   paperclip
   pg (~> 0.18)
   poltergeist
+  pry
   puma (~> 3.7)
   rails (~> 5.1.4)
   rails-controller-testing

@@ -33,17 +33,12 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
-# Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
-
 gem 'dotenv-rails', require: 'dotenv/rails-now'
 gem 'paperclip'
 gem 'aws-sdk'
 
 group :development, :test do
-  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-  # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
   gem 'rspec-rails'
@@ -51,9 +46,10 @@ group :development, :test do
   gem 'poltergeist'
   gem 'cucumber-rails', :require => false
   gem 'database_cleaner'
-  gem 'selenium-cucumber'
+  #gem 'selenium-cucumber'   # https://github.com/selenium-cucumber/selenium-cucumber-ruby
   gem 'selenium-webdriver'
   gem 'chromedriver-helper'
+  gem 'pry'
 end
 
 group :development do
