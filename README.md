@@ -35,6 +35,7 @@
 * How to run the test suite
 
 ```
+  $  mkdir features/reports
   $  cucumber -p regression
 ```
 
