@@ -1,7 +1,7 @@
-Feature: crashplan.nd.edu
+Feature: https://crashplan.nd.edu
   Background:
     Given I have authenticated as "esqa223"
 
   Scenario:
-    When I navigate to "crashplan.nd.edu"
+    When I navigate to "https://crashplan.nd.edu"
     Then element having css "body" should be present

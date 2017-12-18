@@ -1,7 +1,7 @@
-Feature: www.citiprogram.org
+Feature: https://www.citiprogram.org
   Background:
     Given I have authenticated as "esqa223"
 
   Scenario:
-    When I navigate to "www.citiprogram.org"
+    When I navigate to "https://www.citiprogram.org"
     Then element having css "body" should be present

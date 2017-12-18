@@ -1,7 +1,7 @@
-Feature: ndi-tr.nd.edu
+Feature: https://ndi-tr.nd.edu
   Background:
     Given I have authenticated as "esqa223"
 
   Scenario:
-    When I navigate to "ndi-tr.nd.edu"
+    When I navigate to "https://ndi-tr.nd.edu"
     Then element having css "body" should be present
