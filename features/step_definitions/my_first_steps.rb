@@ -1,7 +1,7 @@
-When("I navigate to {string}") do |string|
-  pending # Write code here that turns the phrase above into concrete actions
+When("I navigate to {string}") do |path|
+  visit path
 end
 
-Then("element having css {string} should have text as {string}") do |string, string2|
-  pending # Write code here that turns the phrase above into concrete actions
+Then("element having css {string} should have text as {string}") do |css, text|
+  find(css, text: text)
 end
