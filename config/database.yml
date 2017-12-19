@@ -58,8 +58,8 @@ development:
 test: &test
   <<: *default
   database: casmaint_test
-  username: casmaint
-  password: very_s3krit_secret_casmaint_password
+  username: ENV['PG_USERNAME_TEST']
+  password: ENV['PG_PASSWORD_TEST']
   host: 127.0.0.1
   port: 5432
 
