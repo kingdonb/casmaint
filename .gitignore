@@ -18,5 +18,5 @@
 
 .byebug_history
 /login_validation.csv
-/.env.local
+/.env*
 /features/reports/*
