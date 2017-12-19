@@ -47,7 +47,6 @@ group :development, :test do
   gem 'cucumber-rails', :require => false
   gem 'database_cleaner'
   #gem 'selenium-cucumber'   # https://github.com/selenium-cucumber/selenium-cucumber-ruby
-  gem 'selenium-webdriver'
   gem 'chromedriver-helper'
   gem 'pry'
 end

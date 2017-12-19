@@ -43,7 +43,7 @@
 
 * Deployment instructions
 
-    Setup in `.env.local`
+    Setup in `.env`
 ```
   S3_BUCKET_NAME=your_bucket_name
   AWS_ACCESS_KEY_ID=your_access_key_id
